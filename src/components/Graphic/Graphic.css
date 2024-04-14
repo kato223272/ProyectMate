@@ -1,0 +1,27 @@
+.containercom {
+    display: flex;
+    gap: 5%;
+}
+
+.graphic-container, .info-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5%;
+}
+.graphic-container{
+    margin-left: 25%;
+}
+.info-container{
+    margin-left: 10%;
+    margin-top: 25%;
+}
+
+.graphiccom {
+    width: 100%;
+    height: 50%;
+}
+
+containercom h2 {
+    overflow-wrap: break-word;
+}

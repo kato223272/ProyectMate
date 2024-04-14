@@ -1,0 +1,47 @@
+.method-table{
+    width: 90%;
+    border-collapse: collapse;
+
+    
+    color: black;
+    
+    & tr, thead {
+        height: 3em;
+    }
+
+    & thead > tr > td {
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+
+    & tr:nth-child(odd) {
+        background-color: rgb(253, 253, 253);
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+
+    & tr:nth-child(even) {
+        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(207, 207, 207);
+    }
+}
+/* ------------------------------------ */
+/* .method-table {
+    width: 90%;
+    border-collapse: collapse;
+    color: black;
+}
+
+.method-table thead tr td {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+
+.method-table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.method-table tbody tr:last-child {
+    border-bottom: none;
+} */
+
+

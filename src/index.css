@@ -1,0 +1,23 @@
+:root {
+  font-family: "STIX Math", serif;
+
+
+
+  font-weight: 400;
+  color: white;
+  background-color: var(--black);
+
+  
+  --black: #ecf0f1;
+  --white: #2980b9;
+  --main:  #2c3e50;
+  --light: #f39c12 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
